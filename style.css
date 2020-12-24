@@ -50,7 +50,9 @@ header{
     color: aliceblue;
     letter-spacing: 1px;
 }
-
+.enlaces a:hover{
+    color:#dad28c;
+}
 span{
     color:rgb(238, 209, 174);
     font-weight: bold;
@@ -62,7 +64,7 @@ main{
 }
 .main-left{
     width: 100%;
-    height: 790px;
+    height: 93vh;
     border-bottom: 1px solid rgb(100, 100, 100);
 }
 .main-left h1{
@@ -88,6 +90,10 @@ main{
     margin-left: 5%;
     background: #cec9a1;
 }
+.main-left button:hover{
+    background: #b4ae75;
+    cursor: pointer;
+}
 .main-left button a{
     text-decoration: none;
     color: #1A1B1F;
@@ -98,17 +104,21 @@ main{
     width: 100%;
     height: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background: #1A1B1F;
+    padding: 30px;
 }
 
 .icono img{
     width: 40px;
 }
+.icono img:hover{
+    width: 45px;
+}
 .servicios{
     width: 100%;
-    height: 80px;
+    height: 20px;
     background:#1A1B1F;
     align-items: center;
     padding-top: 5%;
@@ -133,7 +143,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 600px;
+    height: 70vh;
     padding-top: 4.5%;
     background: rgb(211, 211, 211);
 
@@ -176,28 +186,31 @@ main{
 
 }
 .card1 img{
-    width: 400px;
     height: 280px;
     margin-left: 23%;
     margin-bottom: 3%;
     border-radius: 2px;
+    max-width: 100%;
+
 }
 
 .card2 img{
-    width: 400px;
     height: 280px;
     margin-left: 23%;
     margin-bottom: 3%;
     border-radius: 2px;
+    max-width: 100%;
+
 
 }
 
 .card3 img{
-    width: 400px;
     height: 280px;
     margin-left: 23%;
     margin-bottom: 3%;
     border-radius: 2px;
+    max-width: 100%;
+
 
 }
 
@@ -217,53 +230,39 @@ main{
     margin-bottom: 3%;
 }
 
-.card1 button{
-    padding: 2%;
+.card1 .btn{
     background: wheat;
     font-weight: bold;
     border: none;
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
 }
-.card2 button{  
-    padding: 2%;  
+.card2 .btn{  
     background: wheat;
     font-weight: bold;
     border: none;
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
 
 }
-.card3 button{
-    padding: 2%;
+.card3 .btn{
     background: wheat;
     font-weight: bold;
     border: none;
-}
-.flechas{
-    display: flex;
-}
-.icono2{
-    width: 100%;
-    display: flex;
-    height: 70px;
-    justify-content: center;
-    align-items: center;
-    background: #1A1B1F;
-}
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
 
-.icono2 img{
-    width: 40px;
-    height: 40px;
 }
-
-.icono-arriba{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1A1B1F;
-}
-
-.icono-arriba img{
-    width: 40px;
+.btn:hover{
+    background: aliceblue;
+    color: #000000;
+    font-size: .8em;
 }
 .intro-equipo{
     width: 100%;
@@ -291,7 +290,7 @@ main{
 
 .contenedor-equipo{
     width: 100%;
-    height: 580px;
+    height: 68vh;
     background: aliceblue;
     display: flex;
     justify-content: space-evenly;
@@ -327,41 +326,9 @@ main{
     padding-bottom: 2%;
 }
 
-.icono3{
-    background: #1A1B1F;
-    width: 100%;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icono3 img{
-    width: 40px;
-    height: 40px;
-}
-.flechas2{
-    display: flex;
-}
-.icono-arriba2{
-    width: 100%;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1A1B1F;
-}
-
-
-.icono-arriba2 img{
-    width: 40px;
-}
-
-
-
 .clientes{
     width: 100%;
-    height: 800px;
+    height: 90vh;
     background: aliceblue;
     text-align: center;
 }
@@ -381,35 +348,7 @@ main{
     height: 65%;
 }
 
-.icono4{
-    background: #1A1B1F;
-    width: 100%;
-    height: 62px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
 
-.icono4 img{
-    width: 40px;
-    height: 40px;
-}
-.flechas3{
-    display: flex;
-}
-.icono-arriba3{
-    width: 100%;
-    height: 62px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1A1B1F;
-}
-
-
-.icono-arriba3 img{
-    width: 40px;
-}
 .formulario{
     background: aliceblue;
     width: 100%;
@@ -435,6 +374,10 @@ main{
 .form h2{
     border-bottom: 2px solid rgb(255, 255, 255);
     color:aliceblue;
+    margin-top: 5%;
+}
+form h2:hover{
+    color:#dad28c
 }
 .form{
     width: 60%;
@@ -460,6 +403,7 @@ form{
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 0 2px 8px 0 #b4ae75;;
     transition: 0.3s;
+
 }
 
 .form input{
@@ -469,17 +413,24 @@ form{
     border-radius: 200px;
     margin-left: 30px;
     margin-right: 30px;
+;
+
 }
 .form input[type="text"]{
-    margin: 20px;
+    margin: 8%;
+    margin-bottom: 5%;
+    margin-bottom: -2%;
 }
 .form input[type="email"]{
-    margin: 20px;
+    margin: 8%;
+    margin-bottom: -2%;
+
 }
 .form textarea{
     width: 100%;
-    
-    margin: 20px;
+    margin: 8%;
+    margin-bottom: 3%;
+    border-radius: 1%
 
 }
 
@@ -488,8 +439,9 @@ form{
     padding: 10px;
     border-radius: 15px;
     border: none;
+    background: #dad28c;
     color: #000000;
-
+    margin-bottom: 5%;
 }
 
 ::placeholder{
@@ -513,4 +465,11 @@ footer{
     width: 30px;
     height: 30px;
     margin: 20px;
+}
+
+.redes img:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transform: rotate(2deg);
 }
