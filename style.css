@@ -163,7 +163,7 @@ main{
     text-align: center;
     background: #1A1B1F;
     color: aliceblue;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 100%;
     margin: 20px;
     display: flex;
@@ -173,12 +173,11 @@ main{
 
 
 .card__img{
-    width: 530px;
+    width: 100%;
     height: 300px;
-    margin-left: 23%;
-    margin-bottom: 3%;
-    border-radius: 20px;
-    max-width: 100%;
+    margin-left: 20px;
+    border-radius: 10px;
+
 }
 
 .card__text{
